@@ -1,0 +1,108 @@
+/*grab the element(signin-body) by the class(body)*/
+
+body.signin-body {
+    background-color: #e6f2ff;
+}
+
+.container.signin-container {
+    margin-top: 8%;
+}
+
+.card.signin-card {
+    /*    40px from top and bottom. 0px on the left and right. 20px on the bottom*/
+    padding: 40px 0px 20px;
+    background-color: #f4f4f4;
+
+
+    /*    to the bottom right*/
+    /*   the vertical alignment of the shadow to be pushing 2px down beneath our element */
+    /*   the horizontal alignment of the shadow to be pushing 2px from the right 
+    on top or left it would have a minus: 2px -2px 5px;*/
+    /*    5px: the blured radius(how far we want to blur outside and around our element)*/
+    /*    rgb color, a opacity. a€[0,1]*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    /*    helps us to pick on Chrome and Safari*/
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    /*    helps us to work on Firefox*/
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+img.signin-img {
+    /*    0 top, 2 right&left ,2 bottom*/
+    /*    rem(r stands for root). We are grabing the root font-size of what the browser by default sets it to.
+    2rem means I want 2 times larger than the root-font of the browser */
+    padding: 0 2rem 2rem;
+
+    /*   margin auto: always centered. takes any extra space around our element and distribute it evenly from left to right*/
+    margin: auto;
+
+    /*    img always stack on top of the elements beneath it(here: our input fields) */
+    display: block;
+}
+
+
+/*grab this by the selector(form), then by its class(signin-form)*/
+
+form.signin-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+button.signin-btn {
+    color: #ffffff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+a.create-new-account {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
